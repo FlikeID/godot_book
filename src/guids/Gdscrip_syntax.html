@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Flike">
+    <title>GODOT BOOK</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__button logo__container">
+                    
+                        <img class="logo__img" src="../img/godot.svg" alt="GD">
+                        <div class="logo__text" >GODOT<br>BOOK</div>
+                    
+                </a>
+            </div>
+            <nav>
+                <a href="../index.html" class="header__button">Уроки</a>
+                <a href="../about.html" class="header__button">О сайте</a>
+                <a href="../https://godotengine.org" class="header__button">Сайт GODOT</a>
+                <a href="../account.html" class="header__button">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div class="screen__buttons">
+            <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
+                <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
+                <a href="Hierarchical_structure_of_Godot_objects.html" class="preview__button button">Предыдущий<br>урок</a>
+                <a href="Variables_data_types.html" class="next__button button">Cледующий<br>урок</a>
+            </div>
+        </div>
+        <section class="content">
+            <div class="content__container">
+                <div class="main">
+                    <div class="article__title title">Синтаксис GDscript</div>
+                    <div class="article__text text"><p>Синтаксически GDscript похож на Python, но многие аспекты взяты из Java Script<p>
+                        <p class="paragraph">Godot имеет некоторые области видимости, в которых можно или нельзя писать определённые команды</p>
+                        <p class="paragraph">Самой верхней областью, является область объявления. В ней можно объявлять глобальные переменные, функции и классы, но нельзя писать команды</p>
+                        <img src="../img/space.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Команды и подпрограммы можно прописывать внутри функций, так же внутри функций можно объявлять локальные переменные, которые существуют только в контексте этой функции</p>
+                        <p class="paragraph">Отделение областей видимости выполняется с помощью табулирования, как и в Python</p>
+                        <img src="../img/space2.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Комментарии в GDScript начинаться со знака решётки “#”</p>
+                        <img src="../img/comments.jpg" alt="Картинка" class="guid_img">
+
+                        <div class="article__title title">Встроенные функции объекта</div>
+                        <p class="paragraph">Каждый объект имеет встроенные функции, которые можно переопределить. По умолчанию они ничего не выполняться, хотя и вызваться всегда</p>
+                        <img src="../img/func.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">_init – выполняется при инициализации объекта</p>
+                        <p class="paragraph">_ready – когда объект (нода) готова и существует на сцене</p>
+                        <p class="paragraph">_process – выполняться один раз за кадр</p>
+                        <p class="paragraph">_physics_process – выполняется 60 раз в секунду</p>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

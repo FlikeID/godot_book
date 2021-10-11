@@ -1,0 +1,30 @@
+.container{
+    height:100%;
+    width: 80%;
+    border: 4px green solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obj{
+    width: auto;
+    padding: 10px;
+    border: 4px blue solid;
+}
+
+.obj p{
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.header{
+    height:60px;
+    width: 100%;
+    border: 4px red solid;
+    display: flex;
+    justify-content: center;
+}
+.link{
+    width: 50%;
+    border: 4px black solid;
+}

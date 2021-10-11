@@ -1,0 +1,77 @@
+
+
+.content__container{    
+    padding: 0 250px;
+    margin-top: 80px;
+    /* Костыль, что бы, была прокрутка после текста, для кнопок */
+    padding-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    /* margin-top: 105px; */
+}
+
+
+
+.text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.screen{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.screen__buttons{
+    margin: 20px;    
+    display: flex;
+}
+
+.button{
+    flex-direction: column;
+    background: #445599;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+display: inline-block;
+width: auto;
+padding: 10px;
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 25px;
+color: #F6C6B8 !important;
+
+text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button__image{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 88px;
+height: 88px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    background: #2D4174;
+}
+
+header{
+    display: block;
+    background-color: #333639;
+    height: 60px;
+    color: white;
+}
+
+header a{
+    color: white !important;
+    
+}
+
+.header__container{
+    height: 100%;
+    width: 1405px;
+    margin: auto;
+}
+
+@media (max-width: 1410px) {
+    .header__container{
+        width: 95%;
+        margin: 0 2.5%;
+    }
+}
+
+
+nav, .header__logo{
+    display: block;
+    float: right;
+    font-size: 24pt;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.header__logo{
+    float: left;
+}
+
+.header__button{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    height: 100%;
+    line-height: 200%;
+    width: 257px;
+    transition: all 0.3s;
+    
+}
+
+.header__button:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.header__button:active{
+    color: #E58D73 !important; 
+}
+
+.logo__img{
+    width: 40px;
+    float: left;
+}
+.logo__text{
+    float: left;
+    text-align: center;
+    font-size: 16pt;
+    line-height: 16pt;
+}
+
+.logo__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    width: auto;
+}
+
+.paragraph{
+    margin-bottom: 13px;
+}
+
+.guid_img{
+    margin: 15px;
+    box-shadow: #00000050 8px 8px 5px;
+}

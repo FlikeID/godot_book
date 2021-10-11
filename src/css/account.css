@@ -1,0 +1,64 @@
+
+.content__container{
+    
+    padding: 0 250px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start
+    
+}
+
+
+.article:active{
+    background-color: #445599;
+}
+
+.title{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    color: #D0CCE3;
+    /* margin-top: 105px; */
+}
+
+
+
+.text{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    color: #D0CCE3;   
+}
+
+.form_name{
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.auth{
+    border-radius: 10px;
+    padding: 15px 65px;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+.auth:hover{
+    padding: 18px 68px;
+    font-size: 22px;
+    /* Костыл, что бы кнопка во все стороны увеличиволась */
+    margin-left: -3px;
+    margin-top: -3px;
+}

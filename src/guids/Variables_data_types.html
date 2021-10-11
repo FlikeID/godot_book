@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Flike">
+    <title>GODOT BOOK</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__button logo__container">
+                    
+                        <img class="logo__img" src="../img/godot.svg" alt="GD">
+                        <div class="logo__text" >GODOT<br>BOOK</div>
+                    
+                </a>
+            </div>
+            <nav>
+                <a href="../index.html" class="header__button">Уроки</a>
+                <a href="../about.html" class="header__button">О сайте</a>
+                <a href="../https://godotengine.org" class="header__button">Сайт GODOT</a>
+                <a href="../account.html" class="header__button">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div class="screen__buttons">
+            <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
+                <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
+                <a href="Gdscrip_syntax.html" class="preview__button button">Предыдущий<br>урок</a>
+                <!-- <a href="../index.html" class="next__button button">Cледующий<br>урок</a> -->
+            </div>
+        </div>
+        <section class="content">
+            <div class="content__container">
+                <div class="main">
+                    <div class="article__title title">Переменные, типы данных</div>
+                    <div class="article__text text"><p>В GDScript переменные объявляться с помощью двух ключевых слов. Это ‘var’ и ‘const’<p>
+                        <img src="../img/var.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">В отличии от других языков программирования, в GDScript ‘const’, обозначает не константу, а модификатор доступа. ‘var’ означает, что к переменной можно обратиться из другого объекта, а ‘const’ скрывает переменную от других объектов/p>
+                        <p class="paragraph">Т.е. константы в Godot не являются постоянными. В рамках объекта, константы ведут себя также, как и переменные. Можно привести аналогию: ‘var’ – это ‘public’, a ‘const’ – ‘private</p>
+                        <p class="paragraph">Далее, я буду говорить только о ‘var’, но всё тоже самое относиться и к ‘const’</p>
+                        <p class="paragraph">После ключевого слова ‘var’, указывается название переменной. На данном этапе переменная уже объявлена. Она может принимать значения любых типов.</p>
+                        
+                        <p class="paragraph">При объявлении можно сразу же задать значение переменной. Для этого после названия переменной пишется знак присваивания (‘=’) и значение которые мы хотим присвоить.</p>
+                        
+
+                        
+                        <p class="paragraph">При этом тип данных переменной зависит от самих данных. И при перезаписи данных, тип может измениться. При каких-либо операция, типы данных также могут неявно приводиться к общему типу, если это возможно. </p>
+                        
+                        <p class="paragraph">В Godot существуют следующие, встроенные, простые типы данных:</p>
+                        <ul>
+                            <li><p class="paragraph">null – это пустой тип данных, не содержащий информации и не имеющий никакого другого значения.</p></li>
+                            <li><p class="paragraph">bull - тип данных может содержать только истину (true) или ложь (false).</p></li>
+                            <li><p class="paragraph">int - целочисленный тип данных может содержать только целые числа (как отрицательные, так и положительные).</p></li>
+                            <li><p class="paragraph">float - используется для хранения значения с плавающей запятой (действительные числа).</p></li>
+                            <li><p class="paragraph">string - последовательность символов в формате Unicode.</p></li>
+                        </ul>
+                        <p class="paragraph">Также, есть, встроенные, сложные типы данных:
+                            Vector2, Rect2, Vector3, Matrix32, Plane, Quat, AABB, Matrix3, Transform, Color, Image, NodePath, RID, Object, InputEvent, Array, Dictionary
+                            </p>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

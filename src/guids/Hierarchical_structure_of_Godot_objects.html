@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Flike">
+    <title>GODOT BOOK</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__button logo__container">
+                    
+                        <img class="logo__img" src="../img/godot.svg" alt="GD">
+                        <div class="logo__text" >GODOT<br>BOOK</div>
+                    
+                </a>
+            </div>
+            <nav>
+                <a href="../index.html" class="header__button">Уроки</a>
+                <a href="../about.html" class="header__button">О сайте</a>
+                <a href="../https://godotengine.org" class="header__button">Сайт GODOT</a>
+                <a href="../account.html" class="header__button">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div class="screen__buttons">
+            <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
+                <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
+                <!-- <a href="../index.html" class="preview__button button">Предыдущий<br>урок</a> -->
+                <a href="Gdscrip_syntax.html" class="next__button button">Cледующий<br>урок</a>
+            </div>
+        </div>
+        <section class="content">
+            <div class="content__container">
+                <div class="main">
+                    <div class="article__title title">Иерархическая структура объектов Godot</div>
+                    <div class="article__text text"><p>Язык GDScript используется для написания скриптов в игровом движке Godot<p>
+                        <p class="paragraph">Скрипт в Godot не может существовать сам по себе. Он выполняется только в том случае если он прикреплён к какому-либо объекту</p>
+                        <img src="../img/attach_img.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Объекты в Godot также называются нодами или узлами</p>
+                        <p class="paragraph">Любая сцена представляет собой иерархию. Каждая сцена имеет корневую ноду.</p>
+                        <p class="paragraph">У каждого узла в Godot есть родительская нода или сцена, за исключением корневого узла (root). Таким образом объекты образуют иерархическую структуру, как в файловой системе</p>
+                        <p class="paragraph">Каждая нода имеет свой путь: root/название сцены/название ноды. С его помощью можно обращаться к любому объекту на сцене.</p>
+                        <img src="../img/hierarchy.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Помимо пути, также ноды имеют имя, при этом объекты могут называться одинаково, но при условии, что они не являются дочерними для одного и того же узла. Или же, важно, что бы пути до объектов не совпадали</p>
+                        <p class="paragraph">Группы объектов образуют сцены и заготовки. Фактически заготовки — это тоже сцены, но как сцены они не используются. Заготовки используются для включения в другие сцены, в этом случае они становиться обычными узлами, но при этом сохраняют всю группу своих объектов</p>
+                        <img src="../img/scene.jpg" alt="Картинка" class="guid_img">
+                        <img src="../img/scene2.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Можно привести аналогию с файловой системой. Сцена – это папка, а узел – это файл. При этом узлы сами могут выступать в роли объекта</p>
+                        <p class="paragraph">Также существуют глобальные скрипты – синглоты. Они запускаться вместе с запуском игры. Для синглота не требуется объект. </p>
+                        <p class="paragraph">Также при запуске игры, первой запускается главная сцена. Она указывается в настройках проекта. Сцены можно переключать, внутри запущенной сцены можно создавать новые объекты. При переключении сцены, старая сцена удаляется, доступ к ней утрачивается и загружается новая сцена. При повторной загрузке сцены, она загрузится по новой</p>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
