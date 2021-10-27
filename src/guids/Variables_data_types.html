@@ -37,7 +37,7 @@
             <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
                 <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
                 <a href="Gdscrip_syntax.html" class="preview__button button">Предыдущий<br>урок</a>
-                <!-- <a href="../index.html" class="next__button button">Cледующий<br>урок</a> -->
+                <a href="Logical_and_math.html" class="next__button button">Cледующий<br>урок</a>
             </div>
         </div>
         <section class="content">
@@ -46,7 +46,7 @@
                     <div class="article__title title">Переменные, типы данных</div>
                     <div class="article__text text"><p>В GDScript переменные объявляться с помощью двух ключевых слов. Это ‘var’ и ‘const’<p>
                         <img src="../img/var.jpg" alt="Картинка" class="guid_img">
-                        <p class="paragraph">В отличии от других языков программирования, в GDScript ‘const’, обозначает не константу, а модификатор доступа. ‘var’ означает, что к переменной можно обратиться из другого объекта, а ‘const’ скрывает переменную от других объектов/p>
+                        <p class="paragraph">В отличии от других языков программирования, в GDScript ‘const’, обозначает не константу, а модификатор доступа. ‘var’ означает, что к переменной можно обратиться из другого объекта, а ‘const’ скрывает переменную от других объектов</p>
                         <p class="paragraph">Т.е. константы в Godot не являются постоянными. В рамках объекта, константы ведут себя также, как и переменные. Можно привести аналогию: ‘var’ – это ‘public’, a ‘const’ – ‘private</p>
                         <p class="paragraph">Далее, я буду говорить только о ‘var’, но всё тоже самое относиться и к ‘const’</p>
                         <p class="paragraph">После ключевого слова ‘var’, указывается название переменной. На данном этапе переменная уже объявлена. Она может принимать значения любых типов.</p>
@@ -69,6 +69,11 @@
                             Vector2, Rect2, Vector3, Matrix32, Plane, Quat, AABB, Matrix3, Transform, Color, Image, NodePath, RID, Object, InputEvent, Array, Dictionary
                             </p>
                     </div>    
+                    <div class="article__title title">Привидение переменных</div>
+                    <div class="article__text text">
+                        <p>Для приведения данных к определённому типу, нужно использовать специальные функции. Эти функции не изменяют тип данных у переменной. Они возвращают  новое значение<p>
+                        <img src="../img/bool_func.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Так, например функция int(). Если применить её к типу данных bool, то вернуться 0 или 1, если к string, то вернуться все числа из строки, как число</p>
                 </div>
             </div>
         </section>

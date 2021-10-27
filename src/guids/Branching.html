@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Flike">
+    <title>GODOT BOOK</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__button logo__container">
+                    
+                        <img class="logo__img" src="../img/godot.svg" alt="GD">
+                        <div class="logo__text" >GODOT<br>BOOK</div>
+                    
+                </a>
+            </div>
+            <nav>
+                <a href="../index.html" class="header__button">Уроки</a>
+                <a href="../about.html" class="header__button">О сайте</a>
+                <a href="../https://godotengine.org" class="header__button">Сайт GODOT</a>
+                <a href="../account.html" class="header__button">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div class="screen__buttons">
+            <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
+                <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
+                <a href="Array_and_dict.html" class="preview__button button">Предыдущий<br>урок</a>
+                <!-- <a href="../index.html" class="next__button button">Cледующий<br>урок</a> -->
+            </div>
+        </div>
+        <section class="content">
+            <div class="content__container">
+                <div class="main">
+                    <div class="article__title title">Ветвления в GDScript:</div>
+                    <div class="article__text text">
+                        <p>Оператор if проверяет выражение после себя. Если выражение возвращает  true, то выполняется блок кода после if . Если условие не верно, то выполняется оператор elif. Он ведёт себя также как и оператор if, но этот оператор не обязателен. Операторов elif может быть сколько угодно. Если все операторы elif получили false, то выполняется оператор else<p>
+                        <img src="../img/if.jpg" alt="Картинка" class="guid_img">
+                        <p>Оператор match проверяет соответствие переменной какому-либо значению. Каждое значение описывается отдельным блоком. C помощью знака нижнего подчёркивания ‘_’, можно задать блок, который выполнится в случае, если переменная не соответствует ни одному значению. <p>
+                        <img src="../img/match.jpg" alt="Картинка" class="guid_img">
+                        <p>Тринарный оператор в GDscript имеет следующий вид: 1 if boolian = true else 0. Данное выражение вернёт единицу, если переменная boolian равняется true, иначе false<p>
+                        <img src="../img/trin.jpg" alt="Картинка" class="guid_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

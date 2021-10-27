@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Flike">
+    <title>GODOT BOOK</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__button logo__container">
+                    
+                        <img class="logo__img" src="../img/godot.svg" alt="GD">
+                        <div class="logo__text" >GODOT<br>BOOK</div>
+                    
+                </a>
+            </div>
+            <nav>
+                <a href="../index.html" class="header__button">Уроки</a>
+                <a href="../about.html" class="header__button">О сайте</a>
+                <a href="../https://godotengine.org" class="header__button">Сайт GODOT</a>
+                <a href="../account.html" class="header__button">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div class="screen__buttons">
+            <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
+                <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
+                <a href="Logical_and_math.html" class="preview__button button">Предыдущий<br>урок</a>
+                <a href="Branching.html" class="next__button button">Cледующий<br>урок</a>
+            </div>
+        </div>
+        <section class="content">
+            <div class="content__container">
+                <div class="main">
+                    <div class="article__title title">Массивы:</div>
+                    <div class="article__text text">
+                        <p>Массивы, описываться на GDScript двумя квадратными скобками. Массивы могут включать в себя, разные типы данных. Отсчёт индексов, ведётся с нуля т.е. первый элемент имеет индекс 0<p>
+                        <p>Массивы, как и все переменные в GDScript являются ссылками.<p>
+                        <img src="../img/array.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Для обращения к элементам массива, нужно указать индекс элемента в квадратных скобках, сразу после названия переменной</p>
+                        <p class="paragraph">Массивы имеют следующие методы:</p>
+                        <ul>
+                            <li><p class="paragraph">size() вернёт длину массива. Длина массива – это кол-во элементов в нём</p></li>
+                            <li><p class="paragraph">append() добавит элементы в конец массива</p></li>
+                            <li><p class="paragraph">Многие другие</p></li>
+                        </ul>
+                    </div>
+                    <div class="article__title title">Словари:</div>
+                    <div class="article__text text">
+                        <p>Словари, описываться на GDScript двумя фигурными скобками Словари могут включать в себя, разные типы данных. Индексами в словарях могут  быть любые символы. В качестве индексов могут использовать переменные. Тогда индекс, станет равным значению переменной<p>
+                        <p>Массивы, как и все переменные в GDScript являются ссылками.<p>
+                        <img src="../img/dict.jpg" alt="Картинка" class="guid_img">
+                        <p class="paragraph">Для обращения к элементам словари, нужно указать ключ элемента в квадратных скобках, сразу после названия переменной. Также можно обращаться к элементу, через точку</p>
+                        <p class="paragraph">Словари имеют следующие методы:</p>
+                        <ul>
+                            <li><p class="paragraph">has() вернёт true, если словарь содержит ключ, который был передан в параметры</p></li>
+                            <li><p class="paragraph">values() вернёт все значения в виде массива</p></li>
+                            <li><p class="paragraph">keys() вернёт все значения в виде массива</p></li>
+                            <li><p class="paragraph">Многие другие</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

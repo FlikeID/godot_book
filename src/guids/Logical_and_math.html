@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Flike">
+    <title>GODOT BOOK</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="header__button logo__container">
+                    
+                        <img class="logo__img" src="../img/godot.svg" alt="GD">
+                        <div class="logo__text" >GODOT<br>BOOK</div>
+                    
+                </a>
+            </div>
+            <nav>
+                <a href="../index.html" class="header__button">Уроки</a>
+                <a href="../about.html" class="header__button">О сайте</a>
+                <a href="../https://godotengine.org" class="header__button">Сайт GODOT</a>
+                <a href="../account.html" class="header__button">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="screen">
+            <div class="screen__buttons">
+            <!-- Тут по идее нужно бекенд делать, но мы же в ППК СГТУ учимся! -->
+                <a href="../index.html" class="home__button button"><img src="../img/home.svg" alt="Главная" class="button__image"></a>
+                <a href="Variables_data_types.html" class="preview__button button">Предыдущий<br>урок</a>
+                <a href="Array_and_dict.html" class="next__button button">Cледующий<br>урок</a>
+            </div>
+        </div>
+        <section class="content">
+            <div class="content__container">
+                <div class="main">
+                    <div class="article__title title">Математические операции:</div>
+                    <div class="article__text text">
+                        <p>Математические операции идентичны операторам в математике и в других языках<p>
+                        <img src="../img/math.jpg" alt="Картинка" class="guid_img">
+                        <ul>
+                            <li><p class="paragraph">Для сложения используется оператор ‘+’</p></li>
+                            <li><p class="paragraph">Для вычитания используется оператор ‘-’</p></li>
+                            <li><p class="paragraph">Для умножения используется оператор ‘*’</p></li>
+                            <li><p class="paragraph">Для деления используется оператор ‘/’</p></li>
+                            <li><p class="paragraph">Для получения остатка используется оператор ‘%’</p></li>
+                        </ul>
+                    </div>
+                    <div class="article__title title">Особенности математической операции сложения:</div>
+                    <div class="article__text text">
+                        <p>Математический оператор сложения позволяет складывать числа и проводит конкатенацию строк. Если значения числового типа, то произойдёт сложение чисел. Если строкового – то выполниться конкатенация строк. Иначе выброситься ошибка ‘Invalid operand for operator’<p>
+                        <img src="../img/concat.jpg" alt="Картинка" class="guid_img">
+                    </div>
+                    <div class="article__title title">Логические операции</div>
+                    <div class="article__text text">
+                        <p>Для Godot идентично использование таких операторов сравнение как меньше ‘<’, больше   ‘>’, не больше ‘<=’, не меньше ‘>=’, равно ‘==’, не равно ‘!=’<p>
+                        <img src="../img/concat.jpg" alt="Картинка" class="guid_img">
+                        <ul>
+                            <li><p class="paragraph">Для конъюнкции используется оператор ‘and’ или ‘&&’</p></li>
+                            <li><p class="paragraph">Для дизъюнкция используется оператор ‘or’ или ‘||’</p></li>
+                            <li><p class="paragraph">Для импликации используется оператор ‘not’ или ‘!’</p></li>
+                        </ul>
+                            <p class="paragraph">Результатом логический вычисления является, true или false</p>
+                            <p class="paragraph">Функция приведения к логическому типу - bool(). Возвращает false, если первым параметром передать 0 (для int), 0.0 (float) или пустую строку</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
