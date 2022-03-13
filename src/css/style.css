@@ -57,7 +57,9 @@ nav, .header__logo{
 .header__button{
     width: 257px;
 }
-
+.digital_wind{
+    margin-top:5px;
+}
 .header__button:hover{
     background: rgba(0, 0, 0, 0.3);
 }
