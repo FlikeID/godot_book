@@ -59,6 +59,7 @@ nav, .header__logo{
 }
 .digital_wind{
     margin-top:5px;
+    margin-left:10px;
 }
 .header__button:hover{
     background: rgba(0, 0, 0, 0.3);
